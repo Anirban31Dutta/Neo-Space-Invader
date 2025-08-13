@@ -10,13 +10,14 @@ Menu Navigation: Use the **Arrow Keys** to move between options and **Enter** to
 In-Game: Use the **← / → Arrow Keys** to move the spaceship horizontally and **Space Bar** to shoot bullets.
 
 ## How to Run
-Make sure you have **Python 3.9.7** installed. Install dependencies by running:  
-`pip install pygame numpy`  
+Make sure you have **Python 3.x** installed. Install dependencies with:
+```bash
+pip install pygame numpy
 
-Clone the repository and start the game:  
 git clone https://github.com/Anirban31Dutta/Neo-Space-Invader.git
 cd Neo-Space-Invader
 python main.py
+```
 
 
 ## Assets & Credits
