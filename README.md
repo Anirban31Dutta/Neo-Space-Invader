@@ -1,41 +1,29 @@
 # Neo-Space-Invader
 
-## Overview
-Neo-Space-Invader is a Python arcade-style game built using **Pygame**.  
-Blast through waves of enemies, score points, and enjoy the retro feel of the classic Space Invaders — now with a modern menu interface.
-
----
+Neo-Space-Invader is a Python arcade-style game built using **Pygame**. Blast through waves of enemies, score points, and enjoy the retro feel of the classic Space Invaders — now with a modern menu interface.
 
 ## Gameplay
-- On launch, a **menu screen** appears with:
-  - **Start Game** → Begins the game.
-  - **Quit** → Exits the application.
-- Enemies move across the screen and descend toward your spaceship.
-- Shoot enemies to increase your score.
-- The game ends when an enemy collides with your spaceship or reaches the bottom of the screen.
-
----
+When you launch the game, a menu screen appears with two options: **Start Game** (begins the game) and **Quit** (exits the application). Enemies move across the screen and descend toward your spaceship. Shoot enemies to increase your score. The game ends when an enemy collides with your spaceship or reaches the bottom of the screen.
 
 ## Controls
-- **Menu Navigation:**  
-  - **Arrow Keys** → Move between options.  
-  - **Enter** → Select the highlighted option.
-- **In-Game:**  
-  - **← / → Arrow Keys** → Move spaceship horizontally.  
-  - **Space Bar** → Shoot bullets.
+Menu Navigation: Use the **Arrow Keys** to move between options and **Enter** to select.  
+In-Game: Use the **← / → Arrow Keys** to move the spaceship horizontally and **Space Bar** to shoot bullets.
 
----
+## How to Run
+Make sure you have **Python 3.9.7** installed. Install dependencies by running:  
+`pip install pygame numpy`  
 
-## Installation
-
-### Prerequisites
-Make sure you have **Python 3.x** installed.  
-Install dependencies:
-```bash
-pip install pygame numpy
-
-
-## Step to run
+Clone the repository and start the game:  
 git clone https://github.com/Anirban31Dutta/Neo-Space-Invader.git
 cd Neo-Space-Invader
 python main.py
+
+
+## Assets & Credits
+Images and sounds are either created for this project or sourced from free asset libraries. If using third-party assets, please credit the original creators.
+
+## License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+## Author
+Anirban Dutta – [GitHub Profile](https://github.com/Anirban31Dutta)
